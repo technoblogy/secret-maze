@@ -1,2 +1,3 @@
-# secret-maze
-A secret maze game for the ATtiny85
+# Secret Maze
+A simple maze game for the ATtiny85.
+For more information see http://www.technoblogy.com/show?20UO.
