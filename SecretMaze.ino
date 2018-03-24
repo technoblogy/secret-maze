@@ -1,6 +1,6 @@
-/* Secret Maze PCB
+/* Secret Maze PCB v2
 
-   David Johnson-Davies - www.technoblogy.com - 14th March 2018
+   David Johnson-Davies - www.technoblogy.com - 24th March 2018
    ATtiny85 @ 1 MHz (internal oscillator; BOD disabled)
    
    CC BY 4.0
@@ -157,6 +157,8 @@ void loop () {
       Mydelay(200);
     }
     note(0, 0);
-    while (1);                           // Wait for reset
+    Mydelay(1000);                       // Pause
+    X = Startx; Y = Starty;              // Return to start
+    Lights = Look(X, Y);
   }
 }
