@@ -2683,13 +2683,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="SP1" gate="S1" pin="+"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="106.68" y1="50.8" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<junction x="106.68" y="50.8"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="55.88" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="55.88" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="53.34" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
 <junction x="106.68" y="55.88"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<junction x="106.68" y="53.34"/>
 </segment>
 </net>
 <net name="N$4" class="0">
